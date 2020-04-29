@@ -1,13 +1,27 @@
 # 今までに使ったメソッドを記録していく
 
 # 小文字を大文字にする。stringクラス
-puts "aaa".upcase
+"aaa".upcase
 
 # 文字列から引数に該当する値を抽出する抽出する
-puts "testtesttest".slice(0..2)
+"testtesttest".slice(0..2)
 
 # 文字列の反転
-puts "takenotakumi".reverse
+"takenotakumi".reverse
 
 # 絶対値の取得 absメソッド
-puts -14.abs
+-14.abs
+
+# 文字列を配列にだ代入する
+a = "abcdefaaaa".split("")
+# 配列から該当する文字列を抽出し、ｂにいれる
+# ブロックを１行で書く
+b = []
+b = a.select {|i| i == "a"}
+# 複数行の場合
+c = []
+c = a.select do |i|
+  if i == "a"
+    c << i
+  end
+end
