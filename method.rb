@@ -8,3 +8,6 @@ puts "testtesttest".slice(0..2)
 
 # 文字列の反転
 puts "takenotakumi".reverse
+
+# 絶対値の取得 absメソッド
+puts -14.abs
