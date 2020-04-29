@@ -25,3 +25,6 @@ c = a.select do |i|
     c << i
   end
 end
+
+# 重複を削除する
+array = ["a", "a,", "b"].uniq
