@@ -36,3 +36,6 @@ array = ["a", "a,", "b"].uniq
 # 該当する文字列を置き換える。（今回はｂを＠に置き換える）
 kok = "aaaaaaab"
 kok.gsub(/b/, "@")
+
+# 文字列を１文字ずつ抽出し配列に格納する。.chrで最初の文字を取り出す。
+"jsjsjsjsjsj".chars 
