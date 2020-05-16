@@ -39,3 +39,9 @@ kok.gsub(/b/, "@")
 
 # 文字列を１文字ずつ抽出し配列に格納する。.chrで最初の文字を取り出す。
 "jsjsjsjsjsj".chars 
+
+# 角クラスのメソッドを確認できる。この場合はstringクラス
+str = "wwww"
+puts str.class
+
+puts str.methods
