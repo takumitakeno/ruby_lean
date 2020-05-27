@@ -10,3 +10,8 @@ hash = {japan: "こんにちは"}
 puts hash[:japan]
 # 存在しないキーをとりだそうとするとnilがかえる
 puts hash[:us].class
+
+# ハッシュのキーを取得する
+puts hash.keys
+# ハッシュのバリューを取得する
+puts hash.values
