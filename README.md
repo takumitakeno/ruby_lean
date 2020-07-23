@@ -1,1 +1,2 @@
-# ruby_lean
+# Ruby_lean
+Ruby学習用リポジトリ。
